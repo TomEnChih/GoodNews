@@ -7,15 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D920994F27CA07BF0076A6DE /* ArticleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D920994E27CA07BF0076A6DE /* ArticleCell.swift */; };
+		D920995727CA0BC30076A6DE /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = D920995627CA0BC30076A6DE /* SnapKit */; };
+		D92E1ED327C54AE800F06CBD /* ArticleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92E1ED227C54AE800F06CBD /* ArticleViewModel.swift */; };
 		D93E4E6027B2CC5400CAFD1C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93E4E5F27B2CC5400CAFD1C /* AppDelegate.swift */; };
 		D93E4E6227B2CC5400CAFD1C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93E4E6127B2CC5400CAFD1C /* SceneDelegate.swift */; };
-		D93E4E6427B2CC5400CAFD1C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93E4E6327B2CC5400CAFD1C /* ViewController.swift */; };
-		D93E4E6727B2CC5400CAFD1C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D93E4E6527B2CC5400CAFD1C /* Main.storyboard */; };
 		D93E4E6927B2CC5700CAFD1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D93E4E6827B2CC5700CAFD1C /* Assets.xcassets */; };
 		D93E4E6C27B2CC5700CAFD1C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D93E4E6A27B2CC5700CAFD1C /* LaunchScreen.storyboard */; };
 		D93E4E7727B2CC5800CAFD1C /* GoodNewsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93E4E7627B2CC5800CAFD1C /* GoodNewsTests.swift */; };
 		D93E4E8127B2CC5800CAFD1C /* GoodNewsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93E4E8027B2CC5800CAFD1C /* GoodNewsUITests.swift */; };
 		D93E4E8327B2CC5800CAFD1C /* GoodNewsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93E4E8227B2CC5800CAFD1C /* GoodNewsUITestsLaunchTests.swift */; };
+		D93E4E9127B2CD9A00CAFD1C /* NewsListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93E4E9027B2CD9A00CAFD1C /* NewsListTableViewController.swift */; };
+		D93E4E9427B2D3E800CAFD1C /* Webservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93E4E9327B2D3E800CAFD1C /* Webservice.swift */; };
+		D979DBA627BD53C900ABC70E /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = D979DBA527BD53C900ABC70E /* Article.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,11 +40,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D920994E27CA07BF0076A6DE /* ArticleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleCell.swift; sourceTree = "<group>"; };
+		D92E1ED227C54AE800F06CBD /* ArticleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleViewModel.swift; sourceTree = "<group>"; };
 		D93E4E5C27B2CC5400CAFD1C /* GoodNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoodNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D93E4E5F27B2CC5400CAFD1C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D93E4E6127B2CC5400CAFD1C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D93E4E6327B2CC5400CAFD1C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D93E4E6627B2CC5400CAFD1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D93E4E6827B2CC5700CAFD1C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D93E4E6B27B2CC5700CAFD1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D93E4E6D27B2CC5700CAFD1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +53,9 @@
 		D93E4E7C27B2CC5800CAFD1C /* GoodNewsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoodNewsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D93E4E8027B2CC5800CAFD1C /* GoodNewsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodNewsUITests.swift; sourceTree = "<group>"; };
 		D93E4E8227B2CC5800CAFD1C /* GoodNewsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodNewsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D93E4E9027B2CD9A00CAFD1C /* NewsListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListTableViewController.swift; sourceTree = "<group>"; };
+		D93E4E9327B2D3E800CAFD1C /* Webservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webservice.swift; sourceTree = "<group>"; };
+		D979DBA527BD53C900ABC70E /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D920995727CA0BC30076A6DE /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +84,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D920994D27CA07850076A6DE /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				D920994E27CA07BF0076A6DE /* ArticleCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		D92E1ED127C54AD000F06CBD /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D92E1ED227C54AE800F06CBD /* ArticleViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		D93E4E5327B2CC5400CAFD1C = {
 			isa = PBXGroup;
 			children = (
@@ -101,8 +125,11 @@
 			children = (
 				D93E4E5F27B2CC5400CAFD1C /* AppDelegate.swift */,
 				D93E4E6127B2CC5400CAFD1C /* SceneDelegate.swift */,
-				D93E4E6327B2CC5400CAFD1C /* ViewController.swift */,
-				D93E4E6527B2CC5400CAFD1C /* Main.storyboard */,
+				D92E1ED127C54AD000F06CBD /* ViewModel */,
+				D979DBA427BD539900ABC70E /* Model */,
+				D93E4E9227B2D3B600CAFD1C /* Service */,
+				D93E4E8F27B2CCFD00CAFD1C /* Controller */,
+				D920994D27CA07850076A6DE /* Cell */,
 				D93E4E6827B2CC5700CAFD1C /* Assets.xcassets */,
 				D93E4E6A27B2CC5700CAFD1C /* LaunchScreen.storyboard */,
 				D93E4E6D27B2CC5700CAFD1C /* Info.plist */,
@@ -127,6 +154,30 @@
 			path = GoodNewsUITests;
 			sourceTree = "<group>";
 		};
+		D93E4E8F27B2CCFD00CAFD1C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D93E4E9027B2CD9A00CAFD1C /* NewsListTableViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D93E4E9227B2D3B600CAFD1C /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				D93E4E9327B2D3E800CAFD1C /* Webservice.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		D979DBA427BD539900ABC70E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D979DBA527BD53C900ABC70E /* Article.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +194,9 @@
 			dependencies = (
 			);
 			name = GoodNews;
+			packageProductDependencies = (
+				D920995627CA0BC30076A6DE /* SnapKit */,
+			);
 			productName = GoodNews;
 			productReference = D93E4E5C27B2CC5400CAFD1C /* GoodNews.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +269,9 @@
 				Base,
 			);
 			mainGroup = D93E4E5327B2CC5400CAFD1C;
+			packageReferences = (
+				D920995527CA0BC30076A6DE /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = D93E4E5D27B2CC5400CAFD1C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -233,7 +290,6 @@
 			files = (
 				D93E4E6C27B2CC5700CAFD1C /* LaunchScreen.storyboard in Resources */,
 				D93E4E6927B2CC5700CAFD1C /* Assets.xcassets in Resources */,
-				D93E4E6727B2CC5400CAFD1C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +314,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D93E4E6427B2CC5400CAFD1C /* ViewController.swift in Sources */,
 				D93E4E6027B2CC5400CAFD1C /* AppDelegate.swift in Sources */,
+				D93E4E9127B2CD9A00CAFD1C /* NewsListTableViewController.swift in Sources */,
+				D93E4E9427B2D3E800CAFD1C /* Webservice.swift in Sources */,
+				D920994F27CA07BF0076A6DE /* ArticleCell.swift in Sources */,
+				D92E1ED327C54AE800F06CBD /* ArticleViewModel.swift in Sources */,
 				D93E4E6227B2CC5400CAFD1C /* SceneDelegate.swift in Sources */,
+				D979DBA627BD53C900ABC70E /* Article.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +357,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		D93E4E6527B2CC5400CAFD1C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D93E4E6627B2CC5400CAFD1C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D93E4E6A27B2CC5700CAFD1C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -444,7 +496,6 @@
 				INFOPLIST_FILE = GoodNews/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -472,7 +523,6 @@
 				INFOPLIST_FILE = GoodNews/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -624,6 +674,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D920995527CA0BC30076A6DE /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				branch = develop;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D920995627CA0BC30076A6DE /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D920995527CA0BC30076A6DE /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D93E4E5427B2CC5400CAFD1C /* Project object */;
 }
